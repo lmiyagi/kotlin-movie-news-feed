@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CinemaBlend Movie News</string>
+    <string name="global_date_format">EEEE\',\' MMMM dd \'of\' yyy\',\' HH\':\'mm\':\'ss</string>
+    <string name="activity_main_fetch_error">Could not fetch informations</string>
+</resources>

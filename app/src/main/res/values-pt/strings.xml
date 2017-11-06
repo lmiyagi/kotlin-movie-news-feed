@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CinemaBlend Notícias de Filmes</string>
+    <string name="activity_main_fetch_error">Erro ao buscar informações</string>
+    <string name="global_date_format">EEEE\',\' dd \'de\' MMMM \'de\' yyy\',\' \'às\' HH\':\'mm\':\'ss</string>
+</resources>
