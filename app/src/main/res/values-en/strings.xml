@@ -3,4 +3,8 @@
     <string name="activity_main_fetch_error">Could not fetch informations</string>
     <string name="global_date_format">EEEE\',\' MMMM dd \'of\' yyy\',\' HH\':\'mm\':\'ss</string>
     <string name="app_name">CinemaBlend Movie News</string>
+    <string name="global_loading">Loading</string>
+    <string name="global_try_again">Try Again</string>
+    <string name="list_item_feed_cover_image_description">Cover Image</string>
+    <string name="global_error">Something went wrong. Please try again later.</string>
 </resources>

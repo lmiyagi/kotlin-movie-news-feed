@@ -5,13 +5,13 @@ import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
-import android.widget.Toast
-import br.com.leonardomiyagi.cinemablendfeed.*
+import br.com.leonardomiyagi.cinemablendfeed.R
 import br.com.leonardomiyagi.cinemablendfeed.api.ApiClient
 import br.com.leonardomiyagi.cinemablendfeed.article.ArticleActivity
 import br.com.leonardomiyagi.cinemablendfeed.databinding.ActivityMainBinding
 import br.com.leonardomiyagi.cinemablendfeed.main.adapter.FeedAdapter
 import br.com.leonardomiyagi.cinemablendfeed.model.Article
+import br.com.leonardomiyagi.cinemablendfeed.utils.PlaceholderData
 
 class MainActivity : AppCompatActivity(), MainContract.View, FeedAdapter.OnArticleClickedListener {
 
@@ -41,8 +41,16 @@ class MainActivity : AppCompatActivity(), MainContract.View, FeedAdapter.OnArtic
         adapter.setArticles(articles)
     }
 
-    override fun showFetchError() {
-        Toast.makeText(this, R.string.activity_main_fetch_error, Toast.LENGTH_SHORT).show()
+    override fun showLoading() {
+        binding.placeholders?.data = PlaceholderData.loading(this)
+    }
+
+    override fun showFetchError(tryAgainAction: Runnable) {
+        binding.placeholders?.data = PlaceholderData.error(this, R.string.activity_main_fetch_error, tryAgainAction)
+    }
+
+    override fun hideAllPlaceholders() {
+        binding.placeholders?.data = PlaceholderData.hide()
     }
 
     override fun onClick(article: Article) {

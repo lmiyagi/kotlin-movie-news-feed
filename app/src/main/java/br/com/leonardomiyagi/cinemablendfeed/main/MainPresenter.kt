@@ -28,15 +28,17 @@ class MainPresenter(private val apiClient: ApiClient) : MainContract.Presenter {
     }
 
     private fun fetchArticles() {
+        view?.showLoading()
         apiClient.getArticles(callback = object : Callback, retrofit2.Callback<FeedResponse> {
 
             override fun onResponse(call: Call<FeedResponse>?, response: Response<FeedResponse>?) {
+                view?.hideAllPlaceholders()
                 view?.renderArticles(response?.body()?.channel?.articles!!)
             }
 
             override fun onFailure(call: Call<FeedResponse>?, t: Throwable?) {
                 t?.printStackTrace()
-                view?.showFetchError()
+                view?.showFetchError(Runnable(this@MainPresenter::fetchArticles))
             }
         })
     }

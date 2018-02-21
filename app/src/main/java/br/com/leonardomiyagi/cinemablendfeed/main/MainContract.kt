@@ -9,7 +9,9 @@ interface MainContract {
 
     interface View {
         fun renderArticles(articles: List<Article>)
-        fun showFetchError()
+        fun showLoading()
+        fun showFetchError(tryAgainAction: Runnable)
+        fun hideAllPlaceholders()
         fun goToArticle(articleTitle: String, articleUrl: String)
     }
 

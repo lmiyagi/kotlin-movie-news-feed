@@ -15,5 +15,9 @@
             android:clipToPadding="false"
             android:paddingBottom="8dp"
             android:paddingTop="8dp" />
+
+        <include
+            android:id="@+id/placeholders"
+            layout="@layout/placeholders_view" />
     </FrameLayout>
 </layout>
