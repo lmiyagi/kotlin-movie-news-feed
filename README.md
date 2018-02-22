@@ -5,6 +5,10 @@ This example uses CinemaBlend's news feed and show it to the user.
 
 Ps: I have no affiliation with CinemaBlend, all credits of the content goes to CinemaBlend only. Check out their website: https://www.cinemablend.com/
 
+# Author
+### Leonardo Miyagi
+[leonardomiyagi@gmail.com](mailto:leonardomiyagi@gmail.com) | [LinkedIn](https://www.linkedin.com/in/lmiyagi/) | [GitHub](https://github.com/lmiyagi/)
+
 # Privacy Policy
 
 Leonardo Miyagi built the Movie News Feed app as an Open Source app. This SERVICE is provided by Leonardo Miyagi at no cost and is intended for use as is.
