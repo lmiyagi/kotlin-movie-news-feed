@@ -1,6 +1,9 @@
 # Kotlin Movie News Feed
 This example uses CinemaBlend's news feed and show it to the user.
 
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[Play Store](https://play.google.com/store/apps/details?id=br.com.leonardomiyagi.cinemablendfeed)
+
 Ps: I have no affiliation with CinemaBlend, all credits of the content goes to CinemaBlend only. Check out their website: https://www.cinemablend.com/
 
 # Privacy Policy
