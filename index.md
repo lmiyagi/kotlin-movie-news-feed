@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Kotlin Movie News Feed
+This example uses CinemaBlend's news feed and show it to the user.
 
-You can use the [editor on GitHub](https://github.com/lmiyagi/testest/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Ps: I have no affiliation with CinemaBlend, all credits of the content goes to CinemaBlend only. Check out their website: https://www.cinemablend.com/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Privacy Policy
 
-### Markdown
+Leonardo Miyagi built the Movie News Feed app as an Open Source app. This SERVICE is provided by Leonardo Miyagi at no cost and is intended for use as is.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This page is used to inform website visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 
-```markdown
-Syntax highlighted code block
+# Information Collection and Use
 
-# Header 1
-## Header 2
-### Header 3
+The app does use third party services that may collect information used to identify you.
 
-- Bulleted
-- List
+# Links to Other Sites and Content
 
-1. Numbered
-2. List
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
 
-**Bold** and _Italic_ and `Code` text
+I have no affiliation with CinemaBlend, all credits of the content goes to CinemaBlend only. Check out their website: https://www.cinemablend.com/
 
-[Link](url) and ![Image](src)
-```
+Changes to This Privacy Policy
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
 
-### Jekyll Themes
+Contact Us
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lmiyagi/testest/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
