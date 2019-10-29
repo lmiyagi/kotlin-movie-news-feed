@@ -1,8 +1,8 @@
 package br.com.leonardomiyagi.cinemablendfeed.main.adapter
 
-import android.databinding.DataBindingUtil
+import androidx.databinding.DataBindingUtil
 import android.os.Build
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.text.Html
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -24,12 +24,12 @@ class FeedAdapter(val listener: OnArticleClickedListener) : RecyclerView.Adapter
         return articles.size
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): FeedViewHolder {
-        return FeedViewHolder(DataBindingUtil.inflate(LayoutInflater.from(parent?.context), R.layout.list_item_feed, parent, false))
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FeedViewHolder {
+        return FeedViewHolder(DataBindingUtil.inflate(LayoutInflater.from(parent.context), R.layout.list_item_feed, parent, false))
     }
 
-    override fun onBindViewHolder(holder: FeedViewHolder?, position: Int) {
-        holder?.format(articles[position])
+    override fun onBindViewHolder(holder: FeedViewHolder, position: Int) {
+        holder.format(articles[position])
     }
 
     public fun setArticles(articles: List<Article>) {

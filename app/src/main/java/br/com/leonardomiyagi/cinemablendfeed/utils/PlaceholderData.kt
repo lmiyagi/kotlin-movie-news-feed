@@ -1,7 +1,7 @@
 package br.com.leonardomiyagi.cinemablendfeed.utils
 
 import android.content.Context
-import android.support.annotation.StringRes
+import androidx.annotation.StringRes
 import br.com.leonardomiyagi.cinemablendfeed.R
 
 /**

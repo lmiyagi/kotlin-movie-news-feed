@@ -1,10 +1,10 @@
 package br.com.leonardomiyagi.cinemablendfeed.article
 
 import android.annotation.SuppressLint
-import android.databinding.DataBindingUtil
+import androidx.databinding.DataBindingUtil
 import android.graphics.Bitmap
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import android.view.View
 import android.webkit.WebSettings

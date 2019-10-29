@@ -1,10 +1,10 @@
 package br.com.leonardomiyagi.cinemablendfeed.main
 
 import android.content.Intent
-import android.databinding.DataBindingUtil
+import androidx.databinding.DataBindingUtil
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.LinearLayoutManager
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.leonardomiyagi.cinemablendfeed.R
 import br.com.leonardomiyagi.cinemablendfeed.api.ApiClient
 import br.com.leonardomiyagi.cinemablendfeed.article.ArticleActivity
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity(), MainContract.View, FeedAdapter.OnArtic
 
     private fun setupRecyclerView() {
         adapter = FeedAdapter(this)
-        binding.feedRecyclerView.layoutManager = LinearLayoutManager(this)
+        binding.feedRecyclerView.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this)
         binding.feedRecyclerView.adapter = adapter
     }
 }
